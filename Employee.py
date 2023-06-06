@@ -6,10 +6,10 @@ class Employee:
     self.salary = salary
     Employee.empCount +=1
     
-   def displayCount(self):
+  def displayCount(self):
       print("Total Employee %d" % Employee.empCount)
       
-   def displayEmployee(self):
+  def displayEmployee(self):
       print ("Name :",self.name, ", Salary: ", self.salary)
       
   emp1 = Employee("Qois", 1000)
