@@ -12,8 +12,8 @@ class Employee:
   def displayEmployee(self):
       print ("Name :",self.name, ", Salary: ", self.salary)
       
-  emp1 = Employee("Qois", 1000)
-  emp2 = Employee("Sahroni", 5000)
-  emp1.displayEmployee()
-  emp2.displayEmployee()
-  print("Total Employee %d" % Employee.empCount)
+emp1 = Employee("Qois", 1000)
+emp2 = Employee("Sahroni", 5000)
+emp1.displayEmployee()
+emp2.displayEmployee()
+print("Total Employee %d" % Employee.empCount)
